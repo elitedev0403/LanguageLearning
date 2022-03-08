@@ -23,22 +23,15 @@
 		7F257A3082F7EFEA1F389BCE /* libPods-LanguageLearning-LanguageLearningTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5702CC59CDCE81C60A268319 /* libPods-LanguageLearning-LanguageLearningTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		916FA63DA1D9481BBEA08051 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D829BFF3A444550B3F121B6 /* Montserrat-Black.ttf */; };
-		92B1BE4F12CC4389BF6F4117 /* Soleil-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 39927DA4716541859F649FE4 /* Soleil-Bold.otf */; };
 		A084DAD744AD4B6CB29BFAB8 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1DE498C64C943F7BF2866A0 /* Montserrat-Thin.ttf */; };
 		A1AB0B0FC3B444C693938C30 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3203F393DA024F3191F7B0A2 /* Montserrat-ExtraLight.ttf */; };
 		A96DE63B55C642DC9177B3E2 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E18BB9F2047ECB3FFE623 /* Montserrat-ExtraBoldItalic.ttf */; };
 		BB60F17ABAF14DA48135035B /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9292600E03C741D981EC72E2 /* Montserrat-SemiBold.ttf */; };
-		C21D8D2EA93F489881DF7F82 /* Soleil-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1A128285B6CE430C84AEF978 /* Soleil-Light.otf */; };
 		C50871F8EA1446BEB6485A49 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82193A630E14C43A8DDC01A /* Montserrat-ExtraLightItalic.ttf */; };
 		C744FE09B72E49DB992A8991 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F012B0D6B7477BA78EE14A /* Montserrat-Light.ttf */; };
 		D9D97E4D578A43ED91BD9443 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5E53700A7E34ACCBEF6938D /* Montserrat-MediumItalic.ttf */; };
-		E0D5D1A995CB40F7807F273B /* Soleil-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3849D09E70234E6D97CAAB0F /* Soleil-Book.otf */; };
 		E3FE3146970BD3743BF64BA2 /* libPods-LanguageLearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61468CC415AF78961FCB6630 /* libPods-LanguageLearning.a */; };
 		ECBF11B3803B4D8FB26BB793 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2739C694DB994DF193239697 /* Montserrat-Medium.ttf */; };
-		F268F72C27A3EC6C009D553E /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1FEEC984AE24FC982F2B96E /* NotoSans-Bold.ttf */; };
-		F268F72D27A3EC83009D553E /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34FE76632634DD9ACF5F61D /* NotoSans-BoldItalic.ttf */; };
-		F268F72E27A3EC83009D553E /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2AE624B6D8440D5AA561F92 /* NotoSans-Italic.ttf */; };
-		F268F72F27A3EC98009D553E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802A32A28118493BB7E2CB2A /* NotoSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -357,15 +350,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F268F72F27A3EC98009D553E /* NotoSans-Regular.ttf in Resources */,
-				F268F72E27A3EC83009D553E /* NotoSans-Italic.ttf in Resources */,
-				F268F72D27A3EC83009D553E /* NotoSans-BoldItalic.ttf in Resources */,
-				F268F72C27A3EC6C009D553E /* NotoSans-Bold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				92B1BE4F12CC4389BF6F4117 /* Soleil-Bold.otf in Resources */,
-				E0D5D1A995CB40F7807F273B /* Soleil-Book.otf in Resources */,
-				C21D8D2EA93F489881DF7F82 /* Soleil-Light.otf in Resources */,
 				916FA63DA1D9481BBEA08051 /* Montserrat-Black.ttf in Resources */,
 				2A95C2DBC008476ABA435142 /* Montserrat-BlackItalic.ttf in Resources */,
 				2C91D330329F4EFF9434B115 /* Montserrat-Bold.ttf in Resources */,

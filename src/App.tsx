@@ -21,20 +21,20 @@ const App = () => {
   );
 
   React.useEffect(() => {
-    setRight(
-      exercises[selected].answers[clickedWordIndex] ==
-        (
-          exercises[selected].words.find(
-            (val: any) =>
-              val.english ==
-              exercises[selected].problem[exercises[selected].englishBlank - 1],
-          ) as any
-        ).german,
-    );
+    if(clickedWordIndex !== -1)
+      setRight(
+        exercises[selected].answers[clickedWordIndex] ==
+          (
+            exercises[selected].words.find(
+              (val: any) =>
+                val.english ==
+                exercises[selected].problem[exercises[selected].englishBlank - 1],
+            ) as any
+          ).german,
+      );
   }, [clickedWordIndex]);
 
   React.useEffect(() => {
-    console.log(selected);
     if (selected == -1) dispatch(getExercises());
   }, [selected]);
 

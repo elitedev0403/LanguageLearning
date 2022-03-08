@@ -19,7 +19,7 @@ export const Answers = ({clickedWordIndex, setClickedWordIndex}) => {
     <View style={styles.answers}>
       {selected !== -1 &&
         exercises &&
-        exercises[selected].answers.map((word, index) => (
+        exercises[selected].answers?.map((word, index) => (
           <TouchableOpacity
             disabled={clickedWordIndex !== -1}
             onPress={() => onClickWord(index)}
